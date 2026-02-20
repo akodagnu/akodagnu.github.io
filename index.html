@@ -75,25 +75,27 @@
 						<div class="content span-7">
 							<h2 class="major" style="padding-top:50px">I worked at</h2>
 							<p>
-								<strong>Staff Software Engineer</strong><br />
-								<strong>National Instruments, Bengaluru</strong><br>
-								July 2021 - July 2022
+								<strong>Systems Development Engineer</strong><br />
+								<strong>Amazon Web Services, New York, NY</strong><br>
+								Aug 2024 - Present
 							</p>
-							<p>
-								<ul>
-									<li>
-										Adding <b>gRPC</b> (Google’s Remote Procedure Call) support to NI device drivers: Created gRPC wrappers for driver APIs in C++.
-										These APIs can now be accessed in any OS, called by clients in any programming language, even <b>without installing the driver.</b>
-										The driver APIs are accessed remotely via the gRPC server.
-									</li>
-									<li>
-										Automated the gRPC wrapper creation using <b>Python</b> scripts that generate the gRPC calls using driver API function signatures.
-									</li>
-									<li>
-										Feature lead for gRPC support for 5 drivers: NI-DMM, NI-Switch, NI-XNET, NI-Scope, NI-FGEN.
-									</li>
-								</ul>
-							</p>
+							<p><strong>Deployment Automation Engine:</strong></p>
+							<ul>
+								<li>Architected enterprise-scale Infrastructure as Code platform using AWS CDK and TypeScript, automating deployments, reducing rollout time by 70%, and eliminating manual configuration errors.</li>
+								<li>Designed multi-account AWS infrastructure automation with Landing Zone Accelerator and Control Tower integration, enabling consistent provisioning across prod, dev, and shared services environments.</li>
+								<li>Built YAML-based configuration framework with Zod validation for declarative infrastructure across compute (EC2, ASG), networking, storage (EFS, ElastiCache), containers (EKS), databases (Aurora, RDS Oracle), and load balancers (ALB, NLB).</li>
+								<li>Developed deployment orchestration framework with environment controls, CDK bootstrapping, Service Catalog AppRegistry integration, and automated compliance reporting.</li>
+								<li>Implemented containerized Docker + VS Code development environment, standardizing workflows and reducing onboarding time by 60%.</li>
+								<li>Contributed to a widely adopted platform generating $50M+ ARR and used by 30+ healthcare partners.</li>
+							</ul>
+							<p><strong>NextGen Intelligent Assistant:</strong></p>
+							<ul>
+								<li>Architected HIPAA-compliant, voice-enabled clinical AI assistant using Amazon Bedrock AgentCore, MCP, and React, with end-to-end KMS encryption and IAM-based access controls.</li>
+								<li>Designed serverless MCP integration layer with Lambda-based clinical tools, enabling scalable AI agent access to DynamoDB via a standardized protocol gateway with distributed tracing.</li>
+								<li>Built cloud infrastructure with AWS CDK, deploying CloudFront + S3 frontends, ECS Fargate services, and KMS-encrypted DynamoDB data stores.</li>
+								<li>Implemented observability stack with X-Ray and CloudWatch Logs, reducing incident triage time and improving traceability across services.</li>
+								<li>Integrated Claude Sonnet 4.5 via AgentCore with 7-day conversation memory, implementing the Strands agent framework with MCP-based tool discovery and execution.</li>
+							</ul>
 						</div>
 						<!--<div class="inner">
 			<ul class="grid-icons three connected">
@@ -105,6 +107,24 @@
 				<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li>
 			</ul>
 		</div>-->
+					</section>
+
+					<section class="panel spotlight medium" id="ni-staff">
+						<div class="content span-7">
+							<p>
+								<strong>Staff Software Engineer</strong><br />
+								<strong>National Instruments, Bengaluru</strong><br>
+								July 2021 - July 2022
+							</p>
+							<ul>
+								<li>Added <b>gRPC</b> support to NI device drivers by creating C++ gRPC wrappers for driver APIs, enabling remote cross-platform and multi-language access without local driver installation.</li>
+								<li>Automated gRPC wrapper generation with <b>Python</b> scripts that generated calls from driver API function signatures.</li>
+								<li>Served as feature lead for gRPC support across five drivers: NI-DMM, NI-Switch, NI-XNET, NI-Scope, and NI-FGEN.</li>
+							</ul>
+						</div>
+						<div class="image filtered tinted" data-position="top left">
+							<img src="images/pic03.jpg" alt="" />
+						</div>
 					</section>
 
 					<!-- Panel (Spotlight) -->
